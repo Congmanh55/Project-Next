@@ -1,11 +1,9 @@
-import { Footer } from "antd/es/layout/layout"
-
 const ManageProductPage = () => {
     return (
         <div>
-            maa
+            ManageProductPage page
         </div>
     )
 }
 
-export default ManageProductPage
+export default ManageProductPage;

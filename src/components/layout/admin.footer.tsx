@@ -1,13 +1,16 @@
-import { Footer } from "antd/es/layout/layout"
+'use client'
+import { Layout } from 'antd';
 
 const AdminFooter = () => {
+    const { Footer } = Layout;
+
     return (
-        <div>
+        <>
             <Footer style={{ textAlign: 'center' }}>
-                Ant Design ©{new Date().getFullYear()} Created by Ant UED
+                Hỏi Dân IT ©{new Date().getFullYear()} Created by @hoidanit
             </Footer>
-        </div>
+        </>
     )
 }
 
-export default AdminFooter
+export default AdminFooter;
